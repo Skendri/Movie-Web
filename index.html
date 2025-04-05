@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="" class="logo">YourMovie</a>
+      <ul class="nav">
+        <li><i class="bx bxs-home"></i></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="">Kids</a></li>
+        <li><a href="">Adults</a></li>
+        <li><a href="#">Trend</a></li>
+        <li><a href="#">Mylist</a></li>
+      </ul>
+      <div class="search">
+        <input type="text" placeholder="Search" />
+        <i class="bx bx-search"></i>
+      </div>
+    </header>
+
+    <div class="banner">
+      <div class="content the-little-mermaid active">
+        <img
+          src="./image/the-little-mermaid-title.png"
+          alt="movie name"
+          class="movie-title"
+        />
+        <h4>
+          <span>2024</span><span><i>12+</i></span
+          ><span>2h 14min</span><span>romance</span>
+        </h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa animi
+          officiis sequi ad praesentium molestias illo minima ex totam eligendi,
+          asperiores atque magni quibusdam. Non dolores vitae repudiandae ea
+          similique.
+        </p>
+        <div class="button">
+          <a href="#"><i class="bx bx-play"></i>Watch</a>
+          <a href="#"><i class="bx bx-plus"></i>My List</a>
+        </div>
+      </div>
+      <div class="content bg-65">
+        <img
+          src="./image/the-65-title.png"
+          alt="Movie name"
+          class="movie-title"
+        />
+        <h4>
+          <span>2024</span><span><i>12+</i></span
+          ><span>2h 14min</span><span>romance</span>
+        </h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa animi
+          officiis sequi ad praesentium molestias illo minima ex totam eligendi,
+          asperiores atque magni quibusdam. Non dolores vitae repudiandae ea
+          similique.
+        </p>
+        <div class="button">
+          <a href="#"><i class="bx bx-play"></i>Watch</a>
+          <a href="#"><i class="bx bx-plus"></i>My List</a>
+        </div>
+      </div>
+      <div class="content the-black-demon">
+        <img
+          src="./image/the-black-demon-title.png"
+          alt="movie name"
+          class="movie-title"
+        />
+        <h4>
+          <span>2024</span><span><i>12+</i></span
+          ><span>2h 14min</span><span>romance</span>
+        </h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa animi
+          officiis sequi ad praesentium molestias illo minima ex totam eligendi,
+          asperiores atque magni quibusdam. Non dolores vitae repudiandae ea
+          similique.
+        </p>
+        <div class="button">
+          <a href="#"><i class="bx bx-play"></i>Watch</a>
+          <a href="#"><i class="bx bx-plus"></i>My List</a>
+        </div>
+      </div>
+      <div class="content the-covenant">
+        <img
+          src="./image/the-covenant-title.png"
+          alt="movie name"
+          class="movie-title"
+        />
+        <h4>
+          <span>2024</span><span><i>12+</i></span
+          ><span>2h 14min</span><span>romance</span>
+        </h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa animi
+          officiis sequi ad praesentium molestias illo minima ex totam eligendi,
+          asperiores atque magni quibusdam. Non dolores vitae repudiandae ea
+          similique.
+        </p>
+        <div class="button">
+          <a href="#"><i class="bx bx-play"></i>Watch</a>
+          <a href="#"><i class="bx bx-plus"></i>My List</a>
+        </div>
+      </div>
+      <div class="content the-tank">
+        <img
+          src="./image/the-tank-title.png"
+          alt="movie name"
+          class="movie-title"
+        />
+        <h4>
+          <span>2024</span><span><i>12+</i></span
+          ><span>2h 14min</span><span>romance</span>
+        </h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa animi
+          officiis sequi ad praesentium molestias illo minima ex totam eligendi,
+          asperiores atque magni quibusdam. Non dolores vitae repudiandae ea
+          similique.
+        </p>
+        <div class="button">
+          <a href="#"><i class="bx bx-play"></i>Watch</a>
+          <a href="#"><i class="bx bx-plus"></i>My List</a>
+        </div>
+      </div>
+      <div class="carousel-box">
+        <div class="carousel">
+          <div
+            class="carousel-item"
+            onclick="changeBg('bg-little-mermaid', 'the-little-mermaid')"
+          >
+            <img src="./image/the-little-mermaid.jpeg" alt="movie Cover" />
+          </div>
+          <div class="carousel-item" onclick="changeBg('bg-65.jpeg', 'bg-65')">
+            <img src="./image/65.jpg" alt="movie Cover" />
+          </div>
+          <div
+            class="carousel-item"
+            onclick="changeBg('bg-the-black-demon.jpeg', 'the-black-demon')"
+          >
+            <img src="./image/the-black-demon.jpg" alt="movie Cover" />
+          </div>
+          <div
+            class="carousel-item"
+            onclick="changeBg('bg-the-covenant.jpeg', 'the-covenant')"
+          >
+            <img src="./image/the-covenant.jpg" alt="movie Cover" />
+          </div>
+          <div
+            class="carousel-item"
+            onclick="changeBg('bg-the-tank', 'the-tank')"
+          >
+            <img src="./image/bg-the-tank.jpeg" alt="movie Cover" />
+          </div>
+        </div>
+      </div>
+      <a href="" class="play"><i class="bx bx-play-circle"></i>Watch Trailer</a>
+      <ul class="sci">
+        <li>
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="bx bxl-discord"></i></a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="trailer">
+      <video
+        src="https://youtube.com/shorts/LLo9u8GYUU0?si=W3Qa05jOtYjevjI-"
+      ></video>
+      <img class="close" src="./image/close.png" alt="" />
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./main.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".carousel").carousel();
+      });
+    </script>
+  </body>
+</html>
