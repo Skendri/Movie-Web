@@ -24,7 +24,7 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 100px;
+  padding: 18px 100px;
   z-index: 10;
 }
 
@@ -90,11 +90,11 @@ header{
   border-right: 2px solid #ff3700;
 }
 
-.banner{
+.banner {
   position: relative;
   width: 100%;
   min-height: 100vh;
-  padding: 0 100px;
+  padding: 0 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -125,21 +125,24 @@ header{
   transition: 0.5s;
 }
 
-.content.active{
-  display: block;
+.content.active {
+  /* display: block; */
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
   visibility: visible;
   transform: scale(1);
   transition: 0.5s;
 }
 
 .movie-title{
-  max-width: 250px;
+  max-width: 200px;
 }
 
 .banner .content h4{
   color: rgba(255, 255, 255, 0.5);
   font-weight: 400;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .banner .content h4 span{
@@ -202,7 +205,7 @@ header{
 .banner .carousel-box{
   position: relative;
   /* min-width: 950px; */
-  min-width: 900px;
+  min-width: 910px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -213,11 +216,12 @@ header{
   border-radius: 10px;
 }
 
-.carousel{
+.carousel {
   position: relative;
   /* perspective: 1500px; */
-  /* height: 550px; */
-  height: 460px;
+  margin-bottom: 50px;
+  height: 520px;
+  bottom: 60px;
 }
 
 .carousel .carousel-item{
