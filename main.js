@@ -12,8 +12,9 @@ function changeBg(bg, title){
   let banner = document.querySelector(".banner");
   let contents = document.querySelectorAll(".content");
   banner.style.background = `url("./image/${bg}")`;
-  banner.style.backgroundSize = 'contain';
+  banner.style.backgroundSize = 'cover';
   banner.style.backgroundPosition = 'center';
+  banner.style.backgroundRepeat = 'no-repeat';
 
   contents.forEach(content => {
     content.classList.remove('active');

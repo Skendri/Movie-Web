@@ -24,7 +24,7 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 18px 100px;
+  padding: 18px 55px;
   z-index: 10;
 }
 
@@ -35,8 +35,10 @@ header{
 .logo{
   font-size: 30px;
   color: #ffffff;
-  letter-spacing: 4px;
+  background-color: #ff3700;
+  letter-spacing: 5px;
   font-weight: 600;
+  padding: 0 5px;
 }
 
 .nav li{
@@ -66,7 +68,7 @@ header{
   position: absolute;
   left: 50px;
   top: -4px;;
-  width: 100%;
+  width: 80% !important;
   height: 100%;
   color: #ffffff;
   background-color: transparent;
@@ -84,10 +86,12 @@ header{
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  left: 10px;
+  left: 15px;
   padding-right: 10px;
+  padding-top: 6px;
   color: #ffffff;
   border-right: 2px solid #ff3700;
+  height: 25px;
 }
 
 .banner {
